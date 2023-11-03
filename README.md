@@ -1,7 +1,6 @@
 # upscale-injection
 
 ## Building and running
-- Extract the zip archive
 - Open upscale-injection/upscale-injection.sln and build the entire
 solution.
 - Test executable (d3d11_test_app.exe) and the DLL with the hook
