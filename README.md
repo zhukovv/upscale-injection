@@ -1,6 +1,6 @@
 # upscale-injection
 
-## Building and running
+## Build and run
 - Open upscale-injection/upscale-injection.sln and build the entire
 solution.
 - Test executable (d3d11_test_app.exe) and the DLL with the hook
@@ -24,6 +24,10 @@ folder. It’s also noted that the test app from the original author of the
 injection may have issues running from some system folders, i.e Users or
 Downloads. In that case putting it in a path like C:\\upscale-injection
 should solve the issue.
+
+Video demo:
+
+[![demo](https://img.youtube.com/vi/LsQVTyMNhPA/0.jpg)](https://www.youtube.com/watch?v=LsQVTyMNhPA)
 
 
 ### Some notes on the implementation 
