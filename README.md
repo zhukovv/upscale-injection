@@ -10,8 +10,8 @@ shader folders [content](upscale-injection/d3d11_test_app/content/) and [hook_co
 of the original spinning cube from the test app, and the FPS for each frame
 - You can find screenshots and demo video showing the whole process in the
 [screenshots](screenshots/) folder.
-- The solution is made with Microsoft Visual Studio Community 2019,
-version 16.11.29 and platform toolset v142.
+- The solution is made with <code>Microsoft Visual Studio Community 2019</code>,
+version <code>16.11.29</code> and the platform toolset <code>v142</code>.
 - To test the DLL with another game put <code>d3d11.dll</code> and <code>hook_content</code> folder
 alongside the main executable of the game. The DLL will read the shaders
 from the <code>hook_content</code> folder and preform upscaling (file names must be
@@ -21,8 +21,8 @@ Defender or other antivirus software may block execution of the hook.
 Consider disabling antivirus software before using the DLL.
 - If the test app asks for vcruntime140 dlls, you can find them at the bin
 folder. It’s also noted that the test app from the original author of the
-injection may have issues running from some system folders, i.e Users or
-Downloads. In that case putting it in a path like <code>C:\upscale-injection</code>
+injection may have issues running from some system folders, i.e <code>Users</code> or
+<code>Downloads</code>. In that case putting it in a path like <code>C:\upscale-injection</code>
 should solve the issue.
 
 Video demo:
